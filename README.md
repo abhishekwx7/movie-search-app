@@ -1,4 +1,4 @@
 Movie Seach App using OMDB API in Vanilla JS!
 ## 🎥 Demo
 
-[Check Demo Video](./demo/demo.mkv)
+[Download Demo Video](./demo/demo.mkv)
