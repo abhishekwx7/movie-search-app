@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="config.js"></script>
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  </head>
+  <body>
+    <div class="movie-container">
+      <div class="image-container">
+        <img src="resources/bg-image.jpg" alt="background-image" />
+      </div>
+      <div class="search-container">
+        <input type="text" placeholder="Search movie" id="searchInput" />
+      </div>
+      <div class="content-container">
+        <div class="movie-card"></div>
+      </div>
+      <div id="no-results" class="no-results hidden">
+        <!-- <img src="resources/empty.svg" alt="No Movies" class="empty-img" /> -->
+        <div id="lottie-container" style="width: 250px; margin: 0 auto"></div>
+        <h2>No Movies Found</h2>
+        <p>Try searching with a different keyword</p>
+      </div>
+    </div>
+  </body>
+</html>
